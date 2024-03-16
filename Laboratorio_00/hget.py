@@ -88,15 +88,13 @@ def connect_to_server(server_name):
     """
 
     # Buscar direccion ip
-    # COMPLETAR ABAJO DE ESTA LINEA
-    # Aqui deberian obtener la direccion ip del servidor y asignarla
-    # a ip_address
-    # DEJAR LA LINEA SIGUIENTE TAL COMO ESTA
+    ip_address = socket.gethostbyname(server_name)
     sys.stderr.write("Contactando al servidor en %s...\n" % ip_address)
     # Crear socket
-    # COMPLETAR ABAJO DE ESTA LINEA
-    # Aqui deben conectarse al puerto correcto del servidor
-    # NO MODIFICAR POR FUERA DE ESTA FUNCION
+    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    s.connect((server_name, HTTP_PORT))
+
+    return s
 
 
 def send_request(connection, url):
