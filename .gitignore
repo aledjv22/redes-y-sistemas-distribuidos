@@ -50,6 +50,7 @@ Temporary Items
 *.icloud
 
 ### VisualStudioCode ###
+.vscode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -96,5 +97,6 @@ $RECYCLE.BIN/
 
 # python3 outputs
 __pycache__
+__pycache__/*
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,linux,macos,visualstudiocode
