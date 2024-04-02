@@ -6,3 +6,11 @@ Este repositorio esta destinado a servir como índice para localizar los reposit
 
 ### - [Laboratorio 00](./Laboratorio_00)
 ### - [Laboratorio 01](https://github.com/aledjv22/Redes-Lab0y1-2024/tree/main/Lab1)
+
+## Aclaraciones:
+- Los laboratorios se irán actualizando conforme se haya transcurrido la fecha de entrega de los mismos.
+
+## Integrantes:
+- Alejandro Díaz.
+- Arne Müller.
+- Lourdes Reyes.
